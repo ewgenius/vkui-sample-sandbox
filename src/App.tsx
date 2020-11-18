@@ -13,7 +13,12 @@ export const MyCustomSelect = ({
   extraProperty,
   ...props
 }: MyCustomSelectProps) => {
-  return <CustomSelect {...props} />;
+  return (
+    <div>
+      I'm custom select extra: {extraProperty}
+      <CustomSelect {...props} />
+    </div>
+  );
 };
 
 export default function App() {
