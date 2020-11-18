@@ -1,6 +1,7 @@
 import * as React from "react";
 import "@vkontakte/vkui/dist/vkui.css";
 import { AdaptivityProvider, View, Panel } from "@vkontakte/vkui";
+
 import CustomSelect from "@vkontakte/vkui/dist/components/CustomSelect/CustomSelect";
 import { CustomSelectProps } from "@vkontakte/vkui/dist/components/CustomSelect/CustomSelect";
 
